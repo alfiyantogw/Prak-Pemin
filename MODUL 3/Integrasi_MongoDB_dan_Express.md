@@ -1,28 +1,68 @@
 ## Percobaan instalasi NodeJS
-
 1. Membuka halaman (https://nodejs.org/en) untuk mengunduh node.js
+![Cuplikan layar 2023-09-19 202939](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/c37ede29-ecbd-4702-a88c-8d50216e95ca)
 
 2. Mengunduh dan menjalankan node.setup
-  
+  ![Cuplikan layar 2023-09-19 204858](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/a7d7f394-7915-4417-8c3a-2b016afae8a6)
+
 3. Menjalankan command `node -v` untuk memastikan node.js sudah terinstal.
-![Cuplikan layar 2023-09-19 115933](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/bb5f7cb5-d136-480d-a4c4-17c28c8bf6db)
+![Cuplikan layar 2023-09-20 141457](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/f220afc1-e4b4-43e7-9ca1-4ea85e846691)
 
-4. Lakukan insert buku pertama dengan melakukan klik “Add Data”, pilih “Insert Document”, isi dengan data yang diinginkan dan klik “Insert”
-![Cuplikan layar 2023-09-19 115950](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/feb30bb4-c3e6-417a-b6c6-f969637fa60e)
+## Percobaan instalasi NodeJS
+1. Membuat folder dengan nama express-mongodb.
 
-4. Lakukan insert buku kedua dengan cara yang sama.
+2. menjalankan command `npm init -y` untuk menggenerate file package.json.
+
+3. menjalankan command `npm i express mongoose dotenv` untuk melakukan instalasi express.
+
+## Koneksi Express ke MongoDB
+1. Membuat file `index.js` pada root folder dan memasukkan code.
+
+2. Menjalankan command `node index.js`.
+
+3. Membuat file `.env` dan memasukkan code `PORT=5000` pada file tersebut.
+
+4. Mengubah kode pada listening port menjadi berikut dan menjalankan aplikasi kembali.
+
+5. Melakukan copy connection string pada Mongo Compas ke file `.env`.
+
+6. Menambahkan baris kode berikut pada file `index.js`.
+
+## Pembuatan Routing
+1. Membuat direktori routes pada tingkat yang sama dengan `index.js` dan membuat file `book.route.js` di dalamnya.
+
+2. Menambahkan sintaks untuk fungsi getAllBooks, getOneBook, createBook, updaateBook, dan deleteBook.
+
+3. Melakukan import `book.route.js` pada file `index.js` dan menambahkan kode seperti tampilan dibawah ini.
+
+4. menguji sebuah endpoint dengan postman.
+
+## Pembuatan Controller
+1. Membuat direktori `controllers` di tingkat yang sama dengan `index.js` dan membuat file `book.controller.js` di dalamnya.
+2. Menyalin code dari routes untuk fungsi getAllBooks, getOneBook, createBook, updateBook, dan deleteBook.
+3. Melakukan import `book.controller.js` pada file `book.route.js`.
+4. Merubah fungsi untuk memanggil fungsi dari `book.controller.js`.
+5. Melakukan pengujian endpoint dengan postman untuk memastikan response tetap sama.
+
+## Pembuatan Model
+1. Membuat direktori `models` di tingkat yang sama dengan `index.js` dan membuat file `book.model.js` di dalamnya.
+2. Menambahkan beberapa baris kode pada file `book.model.js`
+3. 
+
+
+8. Lakukan insert buku kedua dengan cara yang sama.
 ![Cuplikan layar 2023-09-19 120007](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/4cda57a8-63ff-4836-a3f7-3449f25c6a32)
 
-5. Tampilan dari data buku yang telah diinput
+9. Tampilan dari data buku yang telah diinput
 ![Cuplikan layar 2023-09-19 120032](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/e9282754-8a09-45b5-9e49-0b1c73239a3c)
 
-6. Lakukan pencarian buku dengan author “Osamu Dazai” dengan mengisi filter yang diinginkan dan klik “Find”
+10. Lakukan pencarian buku dengan author “Osamu Dazai” dengan mengisi filter yang diinginkan dan klik “Find”
 ![Cuplikan layar 2023-09-19 120050](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/52edf790-fc41-49e9-a4ea-85c0f8846c73)
 
-7. Merubah summary pada buku “No Longer Human” menjadi “Buku yang bagus (<NAMA>,<NIM>) dengan melakukan klik “Edit Document” (berlambang pensil), mengisi nilai summary yang baru, dan melakukan klik “Update”
+11. Merubah summary pada buku “No Longer Human” menjadi “Buku yang bagus (<NAMA>,<NIM>) dengan melakukan klik “Edit Document” (berlambang pensil), mengisi nilai summary yang baru, dan melakukan klik “Update”
 ![Cuplikan layar 2023-09-19 120121](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/28497b5a-623a-4a7d-8d1c-18bd810eb0e9)
 
-8. Menghapus buku “I Am a Cat” dengan melakukan klik “Remove Document” (berlambang tong sampah) dan melakukan klik “Delete”
+12. Menghapus buku “I Am a Cat” dengan melakukan klik “Remove Document” (berlambang tong sampah) dan melakukan klik “Delete”
 ![Cuplikan layar 2023-09-19 120141](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/5e4f6f80-5d69-491a-b5e2-dddf05c019bd)
 
 
