@@ -1,4 +1,4 @@
-![Cuplikan layar 2023-09-19 215035](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/1903595e-263f-43d6-9ae7-c8864b94ec7c)## Percobaan instalasi NodeJS
+## Percobaan instalasi NodeJS
 1. Membuka halaman (https://nodejs.org/en) untuk mengunduh node.js
 ![Cuplikan layar 2023-09-19 202939](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/c37ede29-ecbd-4702-a88c-8d50216e95ca)
 
