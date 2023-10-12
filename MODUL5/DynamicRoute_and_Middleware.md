@@ -23,7 +23,8 @@
   ![Cuplikan layar 2023-10-04 155437](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/7ea287bf-1358-4265-be26-ae2b15c77dd9)
 
 2. Selanjutnya adalah dengan menambahkan `AgeMiddleware` pada aplikasi yang dibuat dengan menambahkan sintaks berikut pada file `bootstrap/app.php`.
-  ![Cuplikan layar 2023-10-04 155611](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/3b3fab9d-8a08-4759-bb75-16e091dd88f0)
+ ![Cuplikan layar 2023-10-04 155745](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/ba6bc9ed-7c43-47a2-b202-f2e913fb7acb)
 
-3. Terakhir adalah menambahkan middleware pada routes dengan sintaks berikut.
-   ![Cuplikan layar 2023-10-04 155745](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/ba6bc9ed-7c43-47a2-b202-f2e913fb7acb)
+4. Terakhir adalah menambahkan middleware pada routes dengan sintaks berikut.
+   ![Cuplikan layar 2023-10-04 155841](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/de171023-29cf-4ced-9a3a-7d71f75d529b)
+
