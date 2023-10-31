@@ -1,6 +1,7 @@
 # Register, Authentication dan Authorization
 ## Register
 1. Memastikan terdapat tabel users pada aplikasi.
+![Cuplikan layar 2023-10-31 075852](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/1ceb8e88-fb39-4e50-b30e-701ab1745e7a)
 
 2. Memastikan adanya model `User.php`.
 ![Cuplikan layar 2023-10-30 153951](https://github.com/alfiyantogw/Prak-Pemin/assets/99490388/ef04086b-0077-4437-8ccd-579413fa8439)
